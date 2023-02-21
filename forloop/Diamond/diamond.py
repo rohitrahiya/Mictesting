@@ -1,13 +1,12 @@
 """
 Pattern
-
-   *
+   *   
   ***  
- ***** 
+ *****
 *******
- ****
+ *****
   ***
-   * 
+   *
 
 """
 
@@ -18,8 +17,9 @@ for i in range(1,5):
         else:
             print(" ", end='')
     print()
+
 for i in range(1,4):
-    for j in range(1,6):
+    for j in range(1,7):
         if j>=1+i and j<=7-i:
             print("*", end='')
         else:
